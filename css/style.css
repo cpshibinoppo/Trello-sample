@@ -3,7 +3,29 @@
     margin: 0;
     padding: 0;
     font-family:'Roboto', sans-serif;
+    background-color: #ece8ff;
 } 
 /* Navbar start */
-
+nav{
+    height: 100px;
+}
+.nav-bar{
+    display: inline-flex;
+}
+nav .nav-bar h3{
+    text-transform: capitalize;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+    
+}
+li{
+    padding: 5px;
+}
+li a{
+    color: blue;
+    text-decoration: none;
+    text-transform: capitalize;
+}
 /* Navbar end */
