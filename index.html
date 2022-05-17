@@ -5,26 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
     <title>Trello</title>
 </head>
 <body>
     <div class="main">
         <!-- Navbar start -->
-        <nav>
-            <div class="nav-bar">
+        <header class="header"></div>
+            <div class="container-fluid">
+            <div class="nav-bar d-flex justify-content-between align-items-center p-4">
                 <h3>trello</h3>
+                <button  id="but-sent" onclick="shownav()"><i class='bx bx-menu-alt-right'></i></button>
+                <button id="but-ext" onclick="closenav()"><i class='bx bx-menu-alt-left' ></i></button>
+                <nav id="nav">
                 <ul>
-                    <li><a href="#">log in</a></li>
-                    <li><a href="#">sigh up</a></li>
+                    <li class="login"><a href="#">log in</a></li>
+                    <li class="sigh"><a href="#">sigh up</a></li>
                 </ul>
+            </nav>
             </div>
-        </nav>
+        </div>
         <!-- Navbar end -->
+        <!-- section email enter start -->
+        <!-- section email enter end -->
     </div>
-
-
-
     <script src="js/bootstrap.js"></script>
     <script src="js/jsmain.js"></script>
 </body>
