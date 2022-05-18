@@ -50,11 +50,16 @@ li a{
 }
 #but-ext{
     display: none;
+    border: none;
 }
 .bx-menu-alt-right{
     color: #fff;
     background-color: #1b75ff;
     font-size: 17px;
+}
+.bx-right-arrow-alt{
+    color: #1b75ff;
+    font-size: 15px;
 }
 @media (max-width:426px){
 #but-sent{
