@@ -45,9 +45,16 @@ li a{
 }
 #but-sent{
     display: none;
+    background-color: #1b75ff;
+    border-color: #1b75ff;
 }
 #but-ext{
     display: none;
+}
+.bx-menu-alt-right{
+    color: #fff;
+    background-color: #1b75ff;
+    font-size: 17px;
 }
 @media (max-width:426px){
 #but-sent{
@@ -55,6 +62,13 @@ li a{
 }
 nav{
     display: none;
+}
+ul{
+    display: contents;
+}
+li{
+    padding-left: 0;
+    line-height: 2.2;
 }
 }
 /* Navbar end */
