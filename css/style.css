@@ -51,6 +51,7 @@ li a{
 #but-ext{
     display: none;
     border: none;
+    float: right;
 }
 .bx-menu-alt-right{
     color: #fff;
