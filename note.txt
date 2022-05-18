@@ -1,1 +1,5 @@
 d-flex justify-content-between align-items-center
+
+d-none d-md-block col-md-7 pr-md-2
+
+btn-wrap btn-primary btn-block px-4
