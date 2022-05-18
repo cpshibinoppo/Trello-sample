@@ -17,6 +17,7 @@ nav{
 ul{
     list-style: none;
     display: inline-flex;
+    vertical-align: text-top;
     
 }
 li{
