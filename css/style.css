@@ -61,7 +61,7 @@ li a{
     color: #1b75ff;
     font-size: 15px;
 }
-@media (max-width:426px){
+@media (max-width:326px){
 #but-sent{
     display: block;
 }
