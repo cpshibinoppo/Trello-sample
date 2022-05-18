@@ -15,16 +15,16 @@
 nav{
     font-size: 17px;
 }
-ul{
+.navul{
     list-style: none;
     display: inline-flex;
     vertical-align: text-top;
     
 }
-li{
+.login,.sigh{
     padding-left: 30px;
 }
-li a{
+.login,.sigh a{
     color: #1b75ff;
     text-decoration: none;
     text-transform: capitalize;
@@ -76,6 +76,7 @@ li a{
 @media (max-width:326px){
 #but-sent{
     display: block;
+    padding: 3px 5px;
 }
 nav{
     display: none;
@@ -89,3 +90,9 @@ li{
 }
 }
 /* Navbar end */
+/* section email enter start */
+img{
+    width: 425px;
+    height: 100%;
+}
+/* section email enter end */
