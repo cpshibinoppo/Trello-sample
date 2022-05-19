@@ -139,5 +139,26 @@ li{
     .emailmain{
         text-align: center;
     }
+    .emailmainheading{
+        font-size: 30px;
+    }
+    .emailpar{
+        font-size: 18px;
+    }
 }
 /* section email enter end */
+/* section start doing start */
+.doingsection{
+    padding-top: 175px;
+}
+.doingmaindiv{
+    text-align: center;
+}
+.doingmaindiv h2{
+    font-size: 36px;
+}
+.doingmaindiv p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+/* section staer doing end */
