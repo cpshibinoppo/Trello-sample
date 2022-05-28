@@ -161,4 +161,18 @@ li{
     font-size: 18px;
     letter-spacing: 1px;
 }
+@media (max-width:425px){
+    .doingsection{
+        padding-top: 75px;
+    }
+    .doingmaindiv h2{
+        font-size: 23px;
+    }
+    .doingmaindiv p{
+        font-size: 17px;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+    }
+}
 /* section staer doing end */
