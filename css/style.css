@@ -192,5 +192,25 @@ li{
         line-height: 1.5;
         margin-bottom: 1.5rem;
     }
+    .jionpar{
+        font-size: 19px;
+    }
 }
 /* section staer doing end */
+/* section succeed start */
+.succeed h1{
+font-size: 2.2rem;
+}
+.succeed p{
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+@media (max-width:425px){
+    .succeed h1{
+        font-size: 23px;
+    }
+    .succeed p{
+        font-size: 19px;
+    }
+}
+/* section succeed end */
