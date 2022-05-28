@@ -4,6 +4,7 @@
     padding: 0;
     font-family:'Roboto', sans-serif;
     background-color: #f2efff;
+    box-sizing: border-box;
 } 
 /* Navbar start */
 
@@ -160,6 +161,23 @@ li{
 .doingmaindiv p{
     font-size: 18px;
     letter-spacing: 1px;
+}
+.jionpar{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    color: #091E42;
+}
+.img-row{
+    justify-content: center;
+}
+@media (min-width:1440px){
+    .jionpar{
+        text-align: center;
+        font-size: 26px;
+        font-weight: 400;
+        color: #091E42;
+    }
 }
 @media (max-width:425px){
     .doingsection{
