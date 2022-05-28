@@ -6,6 +6,10 @@
     background-color: #f2efff;
     box-sizing: border-box;
 } 
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+}
 /* Navbar start */
 
 .nav-bar h3{
