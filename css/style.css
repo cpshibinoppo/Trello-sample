@@ -275,3 +275,18 @@ font-size: 2.2rem;
 }
 }
 /* section img learn end */
+/* section pricing start */
+#pricing{
+    border-top: 1px solid #091E42;
+    border-bottom: 1px solid #091E42;
+}
+.pricingpar{
+    font-size: 21px;
+    margin-bottom: 1.5rem;
+}
+@media (max-width:768px){
+    #pricing img{
+        display: none;
+    }
+}
+/* section pricing end */
