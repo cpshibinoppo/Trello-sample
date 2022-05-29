@@ -7,8 +7,8 @@
     box-sizing: border-box;
 } 
 .container{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 18px;
+    padding-left: 18px;
 }
 /* Navbar start */
 
@@ -243,5 +243,35 @@ font-size: 2.2rem;
     content: '+';
     position: absolute;
     left: 0;
+}
+@media (min-width:1024px){
+    .two-img-par{
+        font-size: 19px !important;
+    }
+}
+@media (min-width:768px){
+    .two-img-h2{
+        font-size: 30px !important;
+    }
+    .two-img-par{
+        font-size: 19px !important;
+    }
+}
+@media (max-width:425px){
+.img-text h2{
+    font-size: 23px;
+}  
+.img-text p{
+    font-size: 20px;
+}
+.img-text h4{
+    font-size: 17px;
+}
+.learn-more a{
+    padding-left: 1rem;
+}
+.img-text{
+    padding-top: 13px;
+}
 }
 /* section img learn end */
